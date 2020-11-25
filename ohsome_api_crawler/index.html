@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ohsome Crawler</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <h1>Ohsome Crawler</h1>
+
+    <section id="inputs">
+      <label for="url">Url</label>
+      <input type="text" name="url" value="elements/area">
+      <label for="bboxes">Bounding Box</label>
+      <input type="text" name="bboxes" value="9.153679,48.7713057,9.1551159,48.7719985,9.1566868,48.7725075,9.1580486,48.770574,9.1548263,48.7697221,9.153679,48.7713057">
+      <label for="time">Time</label>
+      <input type="text" name="time" value="2020-01-01/2020-15-07/P1M">
+      <label for="filter">Filter</label>
+      <input type="text" name="filter" value="building=* and type:way">
+      <label for="groupByKey">GroupByKey</label>
+      <input type="text" name="groupByKey" value="">
+      <button id="send">Crawl</button>
+    </section>
+
+    <section id="results">
+
+    </section>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

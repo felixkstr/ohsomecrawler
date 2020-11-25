@@ -1,0 +1,31 @@
+body{
+  font-family: Arial;
+  color: rgb(10,10,10);
+  padding: 1em;
+}
+
+label{
+  font-weight: bold;
+}
+
+input{
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+#results > *{
+  word-wrap: break-word;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+table, td{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th,td{
+  padding: .5em;
+  text-align: left;
+}
